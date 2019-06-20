@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='sidebar'>
+      <div className='text'>
+        <h1>Sweet Lang</h1>
+        <h2>Abstract LA Art</h2>
+      </div>
+      <div className='cta'>
+        {/* <h3>Follow Me</h3> */}
+        <div className='link'>
+          <i class='fab fa-instagram fa-2x' />
+          <h3>instagram.com/sweetlang</h3>
+        </div>
+      </div>
     </div>
   );
 }
