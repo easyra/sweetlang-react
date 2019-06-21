@@ -40,6 +40,9 @@
   margin: 0 auto;
   width: max-content;
   .link {
+    &.fa-instagram {
+      color: $instagram;
+    }
     h3 {
       font-size: 18px;
       display: none;
@@ -49,6 +52,7 @@
     cursor: pointer;
     margin-bottom: 5px;
     i {
+      transition: all 0.3s;
       margin: 5px;
     }
   }
@@ -67,4 +71,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  display: none;
 }
