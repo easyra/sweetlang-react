@@ -3,13 +3,15 @@
   .gallery {
     display: flex;
     padding: 15px;
-    // justify-content: space-evenly;
+    &.large {
+      // justify-content: center;
+    }
     flex-wrap: wrap;
     .art {
       padding: 15px;
       max-width: 280px;
       &.large {
-        max-width: 1030px;
+        max-width: 430px;
       }
       img {
         width: 100%;
