@@ -46,7 +46,7 @@ const SideBar = () => {
         <a
           target='blank_'
           href={`https://${titleList[activeTitle]}`}
-          className={aTagClass}
+          className={aTagClass + ' url'}
         >
           {titleList[activeTitle]}
         </a>

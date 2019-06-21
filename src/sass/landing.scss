@@ -1,8 +1,16 @@
 .landing {
   margin-left: 300px;
+  @media screen and (max-width: 500px) {
+    margin: 0;
+    padding: 155px 0;
+  }
   .gallery {
     display: flex;
     padding: 15px;
+    @media screen and (max-width: 500px) {
+      justify-content: center;
+    }
+
     &.large {
       justify-content: center;
     }

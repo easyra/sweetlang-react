@@ -1,5 +1,14 @@
 .sidebar {
   position: fixed;
+  @media screen and (max-width: 500px) {
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    height: initial;
+    .url {
+      display: none;
+    }
+  }
   width: 300px;
   padding: 25px;
   background: #fff;
