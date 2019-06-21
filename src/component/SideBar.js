@@ -28,7 +28,7 @@ const SideBar = () => {
   return (
     <div className='sidebar'>
       <div className='text'>
-        <h1>Sweet Lang</h1>
+        <h1>Langston Alimayu</h1>
         <h2>Abstract LA Art</h2>
         <div className='links'>
           {linkList.map(({ id, className, type }) => (
