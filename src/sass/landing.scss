@@ -1,0 +1,19 @@
+.landing {
+  margin-left: 300px;
+  .gallery {
+    display: flex;
+    padding: 15px;
+    // justify-content: space-evenly;
+    flex-wrap: wrap;
+    .art {
+      padding: 15px;
+      max-width: 280px;
+      &.large {
+        max-width: 1030px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
