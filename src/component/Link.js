@@ -4,7 +4,7 @@ const Link = ({ setTitle, id, className, type, activeTitle, url }) => {
   return (
     <a
       className={`link ${activeTitle == id && type}`}
-      target='_blank'
+      // target='_blank'
       href={`${url}`}
     >
       <i className={className} id={id} onMouseEnter={setTitle} />

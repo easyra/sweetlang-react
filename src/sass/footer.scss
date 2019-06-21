@@ -1,0 +1,21 @@
+footer {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  i {
+    margin: 5px;
+    transition: all 0.2s;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .fa-bandcamp:hover {
+    color: $bandcamp;
+  }
+  .fa-instagram:hover {
+    color: $instagram;
+  }
+}
